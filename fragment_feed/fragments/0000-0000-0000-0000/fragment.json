@@ -1,0 +1,78 @@
+{
+  "protocol": "fragment-v1",
+  "id": "0000-0000-0000-0000",
+  "meta": {
+    "title": "The Zen, What, and How of Fragments",
+    "author": "Fragment Protocol Team",
+    "publisher_domain": "example.com",
+    "published_at": "2025-11-23T12:00:00Z",
+    "summary": "A collection of documents defining the Fragment Protocol, a new standard for AI-first publishing.",
+    "keywords": [
+      "AI",
+      "Protocol",
+      "Philosophy",
+      "Implementation",
+      "Ecosystem"
+    ]
+  },
+  "content": {
+    "source": {
+      "base_path": "source/",
+      "files": [
+        {
+          "role": "main",
+          "mime_type": "text/markdown",
+          "path": "the_zen_of_fragments.md",
+          "integrity": "sha256-dummyhash1"
+        },
+        {
+          "role": "supporting",
+          "mime_type": "text/markdown",
+          "path": "the_what_of_fragments.md",
+          "integrity": "sha256-dummyhash2"
+        },
+        {
+            "role": "supporting",
+            "mime_type": "text/markdown",
+            "path": "the_how_of_fragments.md",
+            "integrity": "sha256-dummyhash3"
+        }
+      ],
+      "ownership": {
+        "license": "CC-BY-SA-4.0",
+        "attribution_text": "Originally published by the Fragment Protocol Team.",
+        "payment_pointer": "https://example.com/support"
+      },
+      "author_signature": {
+        "signer_name": "Fragment Protocol Team",
+        "signer_domain": "example.com",
+        "signature": "dummy-author-signature"
+      }
+    },
+    "presentation": {
+      "base_path": "presentation/",
+      "intent": "Technical Specification",
+      "files": [
+        {
+          "role": "style_guide",
+          "mime_type": "text/markdown",
+          "path": "document.md",
+          "integrity": "sha256-dummyhash4"
+        }
+      ]
+    },
+    "expressions": {}
+  },
+  "additional": {
+    "lineage": {
+      "previous_version_hash": null,
+      "update_type": "original"
+    },
+    "identifiers": {}
+  },
+  "security": {
+    "algorithm": "RSA-SHA256",
+    "signer_domain": "example.com",
+    "signature": "dummy-publisher-signature"
+  }
+}
